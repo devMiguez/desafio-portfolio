@@ -232,4 +232,21 @@ h4 {
     border-radius: 50%;
 }
 
+/* recent--post */
+
+.post {
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 1.87rem;
+}
+
+.post h4 {
+    margin-bottom: 0;
+}
+
+
+
 
