@@ -182,6 +182,54 @@ h4 {
     color: var(--bg-techs);
 }
 
+/* Section files */
 
+.files {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.files .file {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    padding: 1.87rem;
+}
+
+.files .file a {
+    display: flex;
+    gap: 5px;
+    color: var(--text-color);
+    font-weight: 700;
+
+    transition: all .4s;
+}
+
+.files .file a:hover {
+    color: var(--bg-techs);
+}
+
+.files .file p {
+    font-size: .8rem;
+}
+
+.file .separate-file {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.file .separate-file .satisfaction {
+    display: flex;
+    gap: 20px;
+}
+
+.file .separate-file .icon-js ion-icon {
+    background-color: yellow;
+    border-radius: 50%;
+}
 
 
