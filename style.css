@@ -32,7 +32,7 @@ h4 {
     gap: 30px;
     width: 21.75rem;
     max-width: 21.75rem;
-    margin: 40px 60px 60px 40px;
+    margin: 40px 0 60px 40px;
 }
 
 /* profile */
@@ -148,6 +148,39 @@ h4 {
 
 /* second-container */
 
+#container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 40px 60px 60px;
+    width: 100%;
+}
+
+.my-projects {
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.87rem;
+}
+
+.my-projects h4 {
+    margin-bottom: 0;
+}
+
+.my-projects a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: .8rem;
+
+    transition: all .4s;
+}
+
+.my-projects a:hover {
+    color: var(--bg-techs);
+}
 
 
 
