@@ -247,6 +247,38 @@ h4 {
     margin-bottom: 0;
 }
 
+/* Post */
 
+.post-recent {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    padding: 1.87rem;
+}
+
+.post-recent h4 {
+    margin-bottom: 5px;
+}
+
+.post-recent .content-post p:nth-child(2) {
+    font-size: 13px;
+}
+
+.post-recent .content-post p {
+    margin-bottom: 20px;
+}
+
+.post-recent .content-post ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.post-recent .content-post ul li {
+    font-size: 13px;
+}
 
 
