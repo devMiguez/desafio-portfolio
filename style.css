@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+
+body {
+    display: flex;
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 21.75rem;
+    max-width: 21.75rem;
+    margin: 40px 60px 60px 40px;
+}
+
+/* profile */
+
+.profile {
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.profile img {
+    outline: 2px solid #0F0;
+    border-radius: 50%;
+    margin: 39px 0;
+}
+
+.profile h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 26px;
+}
+
+.profile p {
+    font-size: 0.8rem;
+    margin-bottom: 49px;
+}
+
+/* social-medias */
+
+.social-medias {
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0 40px 30px;
+}
+
+.social-medias a {
+    text-decoration: none;
+    color: var(--text-color);
+    display: flex;
+    gap: 16px;
+
+    transition: all .4s;
+}
+
+.social-medias a:hover {
+    color: var(--bg-techs);
+}
+
+/* technology */
+
+.technology {
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    padding: 30px 20px 27px 20px;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-tec .list-tec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+
+    list-style: none;
+}
+
+.content-tec .list-tec li {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: var(--bg-techs);
+    border-radius: 10px;
+    color: #000000;
+    font-weight: 700;
+}
+
+/* experiencies */
+
+.experiences-education {
+    background-color: var(--bg-cards);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    padding: 30px 0 30px 20px;
+}
+
+.experiences-education .list-exp-education {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-left: 50px;
+    width: 205px;
+}
+
+.experiences-education .list-exp-education li strong{
+    color: var(--bg-techs);
+}
+
+.experiences-education .list-exp-education li p {
+    font-size: 13px;
+}
+
+.experiences-education .list-exp-education li p:nth-child(3){
+    font-weight: 700;
+}
+
+
+
+/* second-container */
+
+
+
+
+
