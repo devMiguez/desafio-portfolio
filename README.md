@@ -5,7 +5,7 @@ Desafio feito na página da Rockeatseat, totalmente gratuito.<br/>
 </p>
 
 <p align="center">
-  <img alt="imagem do protótipo" src="images/Portfolio.jpg" height="800px">
+  <img alt="imagem do protótipo" src="images/img-potfolio.jpg" height="800px">
 </p>
 
 <br>
@@ -24,5 +24,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 📚 O que eu achei e aprendi?
 
-<p>Esse desafio foi muito bom para treino de flexbox!! Porém usei um pouco de css grid tambem!! Gostei muito de fazer, sem muita dificuldade ;).</p>
+<p>Esse desafio foi muito bom para treino de flexbox!! Porém usei um pouco de css grid tambem!! Gostei muito de fazer, projeto simples mas que rende sempre muito aprendizado ;).</p>
  
