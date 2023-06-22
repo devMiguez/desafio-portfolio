@@ -20,6 +20,12 @@ body {
     color: var(--text-color);
 }
 
+h4 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -91,12 +97,6 @@ body {
     padding: 30px 20px 27px 20px;
 }
 
-h4 {
-    font-size: 1.25rem;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
 .content-tec .list-tec {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -144,7 +144,6 @@ h4 {
 .experiences-education .list-exp-education li p:nth-child(3){
     font-weight: 700;
 }
-
 
 
 /* second-container */
