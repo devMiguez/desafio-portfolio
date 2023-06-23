@@ -72,7 +72,7 @@ h4 {
     justify-content: center;
     flex-direction: column;
     gap: 40px;
-    padding: 40px 0 40px 30px;
+    padding: 40px 40px 40px 30px;
 }
 
 .social-medias a {
@@ -80,6 +80,7 @@ h4 {
     color: var(--text-color);
     display: flex;
     gap: 16px;
+    font-size: 0.80rem;
 
     transition: all .4s;
 }
@@ -257,6 +258,7 @@ h4 {
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
     border-radius: 20px;
     padding: 1.87rem;
+    width: 100%;
 }
 
 .post-recent h4 {
